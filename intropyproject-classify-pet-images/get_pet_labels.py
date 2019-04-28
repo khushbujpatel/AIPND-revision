@@ -43,7 +43,7 @@ def get_pet_labels(image_dir):
     """
     results_dic = {}
     for filename in listdir(image_dir):
-        labels = filename.split("_")[:-1]
+        labels = [" ".join(filename.split("_")[:-1]).lower()]
         results_dic[filename] = labels
 
     # Replace None with the results_dic dictionary that you created with this
