@@ -317,5 +317,12 @@ N Images: 40  N Dog Images: 30  N NotDog Images: 10
 Pct Corr dog: 100.0 Pct Corr NOTdog:  90.0  Pct Corr Breed:  90.0
 Incorrectly classified dog images: cat_01.jpg
 Incorrectly classified dog breeds images: cat_01.jpg, Beagle_01170.jpg, Golden_retriever_05182.jpg, Great_pyrenees_05367.jpg
+Number of Images: 40
+Number of Dog Images: 30
+Number of "Not-a" Dog Images: 10
+% Correct Dogs: 100.0
+% Correct Breed: 90.0
+% Correct "Not-a" Dog: 90.0
+% Match: 82.5
 
-** Total Elapsed Runtime: 0:0:8
+** Total Elapsed Runtime: 0:0:7

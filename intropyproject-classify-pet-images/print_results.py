@@ -81,3 +81,12 @@ def print_results(results_dic, results_stats_dic, model,
     if print_incorrect_breed:
         print("Incorrectly classified dog breeds images: {}".format(", ".join(incorrect_breeds)))
 
+
+    print("Number of Images: {}".format(results_stats_dic["n_images"]))
+    print("Number of Dog Images: {}".format(results_stats_dic["n_dogs_img"]))
+    print("Number of \"Not-a\" Dog Images: {}".format(results_stats_dic["n_notdogs_img"]))
+    print("% Correct Dogs: {}".format(results_stats_dic["pct_correct_dogs"]))
+    print("% Correct Breed: {}".format(results_stats_dic["pct_correct_breed"]))
+    print("% Correct \"Not-a\" Dog: {}".format(results_stats_dic["pct_correct_notdogs"]))
+    print("% Match: {}".format(results_stats_dic["pct_match"]))
+
